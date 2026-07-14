@@ -1,14 +1,14 @@
 // import React ,{useState,useEffect}from 'react'
 // 
 // 
-const Timer = ({ duration }) => {
-  const [time, setTime] = useState(duration);
-
-  useEffect(()=>{
-    setTimeout(()=>{
-      setTime(time - 1000);
-    },1000)
-  },[time])
+// const Timer = ({ duration }) => {
+  // const [time, setTime] = useState(duration);
+// 
+  // useEffect(()=>{
+    // setTimeout(()=>{
+      // setTime(time - 1000);
+    // },1000)
+  // },[time])
 // 
   // const Timer = () => {
   // const targetDate = new Date("2028-10-14T00:00:00").getTime();
@@ -39,7 +39,7 @@ const Timer = ({ duration }) => {
   // let minutes = parseInt(total_minutes % 60);
   // let hours = parseInt(total_hours % 24);
 // 
-  return `${days}: ${hours}: ${minutes}: ${seconds}`
+  // return `${days}: ${hours}: ${minutes}: ${seconds}`
   // return {days , hours , minutes , seconds}
 // 
 // }
@@ -48,18 +48,18 @@ const Timer = ({ duration }) => {
 // 
   // return (
     // <div  className="text-center">
-      <div className="">
-      {getFormattedTime(time)} 
-{/*  */}
-      </div>
-{/*  */}
-{/*  */}
-      <div className="flex justify-center gap-2 mt-1 font-['Cinzel'] text-xs uppercase">
-      <span>Days</span>
-      <span>Hours</span>
-      <span>Minutes</span>
-      <span>Seconds</span>
-    </div>
+      // <div className="">
+      {/* {getFormattedTime(time)}  */}
+
+      {/* </div> */}
+// {/*  */}
+// {/*  */}
+      // <div className="flex justify-center gap-2 mt-1 font-['Cinzel'] text-xs uppercase">
+      {/* <span>Days</span> */}
+      {/* <span>Hours</span> */}
+      {/* <span>Minutes</span> */}
+      {/* <span>Seconds</span> */}
+    {/* </div> */}
 {/*  */}
 {/*  */}
     {/* <div className="flex justify-center items-start gap-3 sm:gap-5 md:gap-8 font-['Cinzel']"> */}
