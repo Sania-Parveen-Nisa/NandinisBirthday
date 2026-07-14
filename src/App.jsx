@@ -32,7 +32,7 @@ function App() {
       </div>
 
       <div className="countdown flex justify-center font-['Cinzel']   tracking-wider text-green-900 mt-5 text-4xl md:text-6xl lg:text-[200px] font-bold  ">
-        <Timer duration={826 * 24 * 60 * 60 * 1000} />
+        <Timer targetDate="2028-10-14T00:00:00" />
       </div>
 
       <div className="sec3 flex justify-center ">
